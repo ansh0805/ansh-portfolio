@@ -7,26 +7,42 @@
 
     <title>Ansh Lakkad Portfolio</title>
 
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Smooth Scroll -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 
 <body class="bg-black text-white overflow-x-hidden min-h-screen">
 
-    <!-- Background -->
+    <!-- Background Blur -->
     <div class="fixed inset-0 -z-10 overflow-hidden">
-        <div class="absolute top-0 left-0 w-[500px] h-[500px] bg-yellow-400/10 blur-[140px] rounded-full"></div>
-        <div class="absolute bottom-0 right-0 w-[500px] h-[500px] bg-yellow-400/10 blur-[140px] rounded-full"></div>
+        <div
+            class="absolute top-0 left-0 w-[500px] h-[500px] bg-yellow-400/10 blur-[140px] rounded-full">
+        </div>
+
+        <div
+            class="absolute bottom-0 right-0 w-[500px] h-[500px] bg-yellow-400/10 blur-[140px] rounded-full">
+        </div>
     </div>
 
     <!-- Navbar -->
     <header class="fixed top-0 left-0 w-full z-50 px-6 pt-5">
-        <div class="max-w-7xl mx-auto border border-yellow-400/20 bg-black/70 backdrop-blur-xl rounded-full px-8 py-5 flex items-center justify-between">
+
+        <div
+            class="max-w-7xl mx-auto border border-yellow-400/20 bg-black/70 backdrop-blur-xl rounded-full px-8 py-5 flex items-center justify-between">
 
             <h1 class="text-yellow-400 font-black text-xl">
                 ANSH LAKKAD
             </h1>
 
             <nav class="hidden md:flex items-center gap-10 text-sm text-zinc-400 uppercase">
+
                 <a href="#home" class="hover:text-yellow-400 transition">
                     Home
                 </a>
@@ -46,12 +62,14 @@
                 <a href="#contact" class="hover:text-yellow-400 transition">
                     Contact
                 </a>
+
             </nav>
 
         </div>
+
     </header>
 
-    <!-- Hero -->
+    <!-- Hero Section -->
     <section id="home" class="min-h-screen flex items-center px-6 pt-32">
 
         <div class="max-w-5xl mx-auto text-center">
@@ -62,23 +80,34 @@
 
             <h1 class="text-5xl md:text-7xl font-black leading-tight mb-8">
                 Building Premium
-                <br /> Digital Experiences
+                <br />
+                Digital Experiences
             </h1>
 
             <p class="text-zinc-400 text-lg leading-relaxed mb-10 max-w-3xl mx-auto">
-                I’m Ansh Lakkad, a 3rd year Computer Engineering student from Jamnagar, Gujarat, India focused on frontend development, UI/UX design and premium digital experiences.
+
+                I’m Ansh Lakkad, a 3rd year Computer Engineering student
+                from Jamnagar, Gujarat, India focused on frontend development,
+                UI/UX design and premium digital experiences.
+
             </p>
 
             <div class="flex flex-wrap gap-5 justify-center">
 
+                <!-- Projects Button -->
                 <a href="#projects"
-                    class="px-8 py-4 bg-yellow-400 text-black rounded-full font-bold hover:scale-105 transition">
+                    class="px-8 py-4 bg-yellow-400 text-black rounded-full font-bold hover:scale-105 transition duration-300">
+
                     View Projects
+
                 </a>
 
-                <a href="./Ansh_Lakkad_Resume_v2.pdf" download
-                    class="px-8 py-4 border border-yellow-400/30 rounded-full hover:bg-yellow-400/10 transition">
+                <!-- Download Resume -->
+                <a href="./resume.pdf" download
+                    class="px-8 py-4 border border-yellow-400/30 rounded-full hover:bg-yellow-400/10 transition duration-300">
+
                     Download Resume
+
                 </a>
 
             </div>
@@ -92,7 +121,7 @@
 
         <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16">
 
-            <!-- Left -->
+            <!-- About Left -->
             <div>
 
                 <p class="text-yellow-400 uppercase mb-4">
@@ -104,9 +133,13 @@
                 </h2>
 
                 <p class="text-zinc-400 leading-relaxed mb-8">
-                    Passionate about frontend development, UI/UX design, Python programming and modern web technologies.
-                    I enjoy building creative digital experiences, futuristic interfaces and responsive websites with
-                    clean user experience and modern design systems.
+
+                    Passionate about frontend development, UI/UX design,
+                    Python programming and modern web technologies.
+                    I enjoy building creative digital experiences,
+                    futuristic interfaces and responsive websites
+                    with clean user experience and modern design systems.
+
                 </p>
 
                 <div class="border border-white/10 rounded-3xl p-8 bg-zinc-900">
@@ -116,7 +149,8 @@
                     </h3>
 
                     <p class="text-zinc-400">
-                        Madhuben and Bhanubhai Patel Institute of Technology, Anand, Gujarat
+                        Madhuben and Bhanubhai Patel Institute of Technology,
+                        Anand, Gujarat
                     </p>
 
                     <p class="text-zinc-500 mt-4">
@@ -142,22 +176,22 @@
 
                 <div class="border border-white/10 rounded-3xl p-8 bg-zinc-900">
                     <p class="text-yellow-400 text-sm mb-4">Skill</p>
-                    <h3 class="text-2xl font-bold">JAVA</h3>
+                    <h3 class="text-2xl font-bold">JavaScript</h3>
                 </div>
 
                 <div class="border border-white/10 rounded-3xl p-8 bg-zinc-900">
                     <p class="text-yellow-400 text-sm mb-4">Skill</p>
-                    <h3 class="text-2xl font-bold">PYTHON</h3>
+                    <h3 class="text-2xl font-bold">Python</h3>
                 </div>
 
                 <div class="border border-white/10 rounded-3xl p-8 bg-zinc-900">
                     <p class="text-yellow-400 text-sm mb-4">Skill</p>
-                    <h3 class="text-2xl font-bold">UI/UX DESIGN</h3>
+                    <h3 class="text-2xl font-bold">UI/UX Design</h3>
                 </div>
 
                 <div class="border border-white/10 rounded-3xl p-8 bg-zinc-900">
                     <p class="text-yellow-400 text-sm mb-4">Skill</p>
-                    <h3 class="text-2xl font-bold">FRONTEND DEVELOPMENT</h3>
+                    <h3 class="text-2xl font-bold">Frontend Development</h3>
                 </div>
 
             </div>
@@ -209,13 +243,18 @@
                     </h3>
 
                     <p class="text-zinc-400 leading-relaxed mb-8">
-                        Premium frontend portfolio and UI/UX design project with smooth animations and modern interface
-                        design.
+
+                        Premium frontend portfolio and UI/UX design project
+                        with smooth animations and modern interface design.
+
                     </p>
 
-                    <a href="https://github.com/ansh0805" target="_blank"
-                        class="text-yellow-400">
+                    <a href="https://github.com/ansh0805"
+                        target="_blank"
+                        class="text-yellow-400 hover:underline">
+
                         Github →
+
                     </a>
 
                 </div>
@@ -247,13 +286,20 @@
                     </h3>
 
                     <p class="text-zinc-400 leading-relaxed mb-8">
-                        A smart biotech career recommendation platform that helps students discover biotechnology career
-                        paths, future opportunities and skill-based guidance using modern technologies.
+
+                        A smart biotech career recommendation platform
+                        that helps students discover biotechnology career paths,
+                        future opportunities and skill-based guidance
+                        using modern technologies.
+
                     </p>
 
-                    <a href="https://github.com/ansh0805" target="_blank"
-                        class="text-yellow-400">
+                    <a href="https://github.com/ansh0805"
+                        target="_blank"
+                        class="text-yellow-400 hover:underline">
+
                         Github →
+
                     </a>
 
                 </div>
@@ -291,17 +337,23 @@
 
             <div class="flex justify-center gap-5 flex-wrap">
 
-                <!-- Download -->
-                <a href="./Ansh_Lakkad_Resume_v2.pdf" download
-                    class="px-8 py-4 bg-yellow-400 text-black rounded-full font-bold hover:scale-105 transition">
+                <!-- Download Resume -->
+                <a href="./resume.pdf"
+                    download
+                    class="px-8 py-4 bg-yellow-400 text-black rounded-full font-bold hover:scale-105 transition duration-300">
+
                     Download Resume
+
                 </a>
 
-                <!-- View -->
-                <button onclick="window.open('./Ansh_Lakkad_Resume_v2.pdf','_blank')"
-                    class="px-8 py-4 border border-white/10 rounded-full hover:bg-white/5 transition">
+                <!-- View Resume -->
+                <a href="./resume.pdf"
+                    target="_blank"
+                    class="px-8 py-4 border border-white/10 rounded-full hover:bg-white/5 transition duration-300">
+
                     View Resume
-                </button>
+
+                </a>
 
             </div>
 
@@ -327,8 +379,11 @@
                         Email
                     </p>
 
-                    <a href="mailto:anshansh0999@gmail.com" class="text-zinc-300">
+                    <a href="mailto:anshansh0999@gmail.com"
+                        class="text-zinc-300 hover:text-yellow-400">
+
                         anshansh0999@gmail.com
+
                     </a>
 
                 </div>
@@ -340,8 +395,11 @@
                         Contact
                     </p>
 
-                    <a href="tel:9898409048" class="text-zinc-300">
+                    <a href="tel:9898409048"
+                        class="text-zinc-300 hover:text-yellow-400">
+
                         +91 9898409048
+
                     </a>
 
                 </div>
@@ -353,9 +411,12 @@
                         Github
                     </p>
 
-                    <a href="https://github.com/ansh0805" target="_blank"
-                        class="text-zinc-300">
+                    <a href="https://github.com/ansh0805"
+                        target="_blank"
+                        class="text-zinc-300 hover:text-yellow-400">
+
                         github.com/ansh0805
+
                     </a>
 
                 </div>
@@ -368,7 +429,9 @@
 
     <!-- Footer -->
     <footer class="border-t border-white/10 py-8 text-center text-zinc-500">
+
         Designed & Developed by Ansh Lakkad
+
     </footer>
 
 </body>
